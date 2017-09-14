@@ -5,6 +5,10 @@
                         <meta name="viewport" content="width=device-width, initial-scale=1">
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<meta name="keywords" content="Vappala , Vappalakalam, Vappalakalathil , Ananganadi , Panamanna , Ottappalam , Nair, Menon , ettukettu , naalukettu , traditional, machu, machil bagavathi" />
+			
+				
+			<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
 
 			<!-- Custom Theme files -->
 			<link href="/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
@@ -12,6 +16,12 @@
 			<link href="/css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons -->
 			<link rel="stylesheet" href="/css/lightbox.css">  
 			<!-- //Custom Theme files --> 
+			
+			<!-- js -->
+			<script src="/js/jquery-2.2.3.min.js"></script>  
+			<!-- //js -->
+			
+			
 		</head>
 		<body>
 			<!-- header -->
@@ -101,5 +111,59 @@
 					<p>&copy; 2017 Vappala. All rights reserved </p>
 				</div>
 			</div>
+			
+			<!-- start-smooth-scrolling -->
+			<script src="js/SmoothScroll.min.js"></script> 
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>	
+			<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+			</script>
+			<!-- //end-smooth-scrolling -->	
+			<!-- smooth-scrolling-of-move-up -->
+			<script type="text/javascript">
+				$(document).ready(function() {	
+
+					$().UItoTop({ easingType: 'easeOutQuart' });
+
+				});
+			</script>
+			<!-- //smooth-scrolling-of-move-up -->  
+			
+			<!-- click expand-->
+			<script type="text/javascript">
+				$('.more').click(function(){
+				$(this).animate({'opacity': '0'}, 1000);
+				$('.less').animate({
+					'opacity': '1', 
+					'z-index': '1'
+				}, 1000);
+				$('.info').animate({'height': '24em'}, 1000);		
+			return false;
+
+			});
+			$('.less').click(function(){
+				$(this).animate({
+					'opacity': '0',
+					'z-index': '-1'
+				}, 1000);
+				$('.more').animate({'opacity': '1'}, 1000);
+				$('.info').animate({'height': '120px'}, 1000);
+				 return false;
+			});	
+			</script>
+			<!-- //click expand-->
+
+			<!-- Bootstrap core JavaScript
+		    ================================================== -->
+		    <!-- Placed at the end of the document so the pages load faster -->
+		    <script src="/js/bootstrap.js"></script>
+			
 		</body>
 	</html>
