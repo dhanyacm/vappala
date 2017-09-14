@@ -2,28 +2,83 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/vappala/css/main.css">
+			
+			<!-- Custom Theme files -->
+			<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+			<link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
+			<link href="css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons -->
+			<link rel="stylesheet" href="css/lightbox.css">  
+			<!-- //Custom Theme files --> 
+			
 		</head>
+		
 		<body>
-			<nav>
-	    		<ul>
-	        	  <li><a href="/">Home</a></li>
-	        	  <li><a href="/about">About</a></li>
-        		  <li><a href="/temple">Temple</a></li>
-                          <li><a href="/blog">News</a></li>
-        		  <li><a href="/contact">Contact</a></li>
-	    		</ul>
-			</nav>
+		
+			<!-- header -->
+			<div class="header-w3layoutstop">
+				<div class="container">  
+					<div class="hdr-w3left navbar-left">
+						<p><span class="fa fa-mobile"></span> +91 99 72 33 11 66 </p> 
+					</div>
+					<div class="w3ls-bnr-icons social-w3licon navbar-right">
+						<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
+						<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a> 
+					</div>  
+				</div>
+			</div>
+			<!-- navigation -->
+			<div class="top-nav w3-agiletop">
+				<div class="container">
+					<div class="navbar-header w3llogo">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>  
+						<h1><a href="index.html">Vappala</a></h1> 
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="w3menu navbar-right">
+							<ul class="nav navbar">
+								<li><a href="index.html" class="active">Home</a></li>
+								<li><a href="#about" class="scroll">About</a></li> 
+								<li><a href="#Temple" class="scroll">Temple</a></li>
+								<li><a href="#poojas" class="scroll">Poojas</a></li>
+								<li><a href="#gallery" class="scroll">Gallery</a></li>
+								<li><a href="#news" class="scroll">News</a></li>
+								<li><a href="#contact" class="scroll">Contact</a></li>
+							</ul>
+						</div> 
+						<div class="clearfix"> </div>  
+					</div>
+				</div>	
+			</div>	
+			<!-- //navigation -->
+			<!-- //header -->
+			
 			<div class="container">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-			   		<li><a href="mailto:cmdhanya@gmail.com">email</a></li>        		       
-			</ul>
-			</footer>
+			
+			<div class="footer">
+				<div class="container"> 
+					<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+91 99 72 33 11 66</p>
+					<div class="social-w3licon">
+						<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  
+					</div>      
+				</div>
+			</div>
+			<div class="copy-right">
+				<div class="container">
+					<p>&copy; 2017 Vappala. All rights reserved </p>
+				</div>
+			</div>
 		</body>
 	</html>
