@@ -5,7 +5,20 @@ title: Vappala
 
 <div class="blurb">
 	
-		<!-- welcome -->
+	<!-- banner -->
+	<div class="agileits-banner bnr-agileinfo"> 
+		<div class="container">
+			<div class="banner-w3text w3layouts"> 
+				<h2>Vappala </h2>
+				<div class="w3lsmore">
+					<a class="w3-agilebtn scroll" href="#about"><span>More About</span></a>
+				</div> 
+			</div> 
+		</div>
+	</div>
+	<!-- //banner -->	
+		
+	<!-- welcome -->
 	<div class="welcome"> 
 		<div class="welcome-agileinfo">
 			<div class="col-md-6 agile-welcome-left"> 
@@ -366,29 +379,24 @@ At the mandapapura, special poojas with naivedyam for Bhadrakali , Vettekkaran a
 	<!-- news -->
 	<div id="news" class="news">
 		<div class="container"> 
-			<h3 class="agileits-title">News</h3> 
-		
+			<h3 class="agileits-title">News</h3> 		
 			<ul id="news" class="posts">
-
 			  {% for post in site.posts %}			    
 				<li class="news-item">
 				   <table cellpadding="4">
 				    <tr>
 					<td><img src={{ post.icon }} width="60" class="img-circle" /></td>
-									
+
 					<td>
-					 <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+					 <span>{{ post.date | date_to_string }}</span>  : <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 					</td>					    	
-					
+
 					</td>
 					 <tr>
 				   </table>
-				</li>
-			
+				</li>			
 			  {% endfor %}
-			</ul>
-			
-			
+			</ul>			
 		</div>
 	</div>
 	<!-- //news -->
@@ -422,6 +430,26 @@ At the mandapapura, special poojas with naivedyam for Bhadrakali , Vettekkaran a
 		</div>
 	</div>
 	<!-- //map -->
+       		
+	<!-- contact -->
+	<div class="contact">
+		<div class="container">
+			<h3 class="agileits-title">Contact</h3>
+			<form name="contact" action="https://formspree.io/vappala.info@gmail.com" method="post">
+				<div class="col-sm-6 contact-left">
+					<input type="text" name="Name" placeholder="Your Name" required="">
+					<input type="email" name="Email" placeholder="Email" required="">
+					<input type="text" name="Mobile Number" placeholder="Mobile Number" required="">
+				</div>
+				<div class="col-sm-6 contact-right"> 
+					<textarea name="Message" placeholder="Message" required=""></textarea>
+					<input type="submit" value="Submit" >
+				</div>
+				<div class="clearfix"></div>
+			</form>
+		</div>
+	</div> 
+	<!-- //contact -->
     
     
 	
