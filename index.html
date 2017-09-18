@@ -330,7 +330,14 @@ At the mandapapura, special poojas with naivedyam for Bhadrakali , Vettekkaran a
 	<!-- news -->
 	<div id="news" class="news">
 		<div class="container"> 
-			<h3 class="agileits-title">Upcoming Events</h3> 
+			<h3 class="agileits-title">News</h3> 
+		
+			<ul class="posts">
+
+			  {% for post in site.posts %}
+			    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			  {% endfor %}
+			</ul>
 			
 			
 		</div>
