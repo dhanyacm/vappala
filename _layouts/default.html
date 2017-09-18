@@ -178,6 +178,21 @@
 			});	
 			</script>
 			<!-- //click expand-->
+			
+			<!-- news expand-->
+			<script type="text/javascript">
+				$(function () {
+					$("#news").bootstrapNews({
+						newsPerPage: 3,
+						autoplay: false,
+
+						onToDo: function () {
+							//console.log(this);
+						}
+					});
+				});
+			</script>
+			<!-- //news expand-->
 
 			<!-- Bootstrap core JavaScript
 		    ================================================== -->
