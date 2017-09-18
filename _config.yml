@@ -3,6 +3,6 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-sitemap
-permalink: /vappala/blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title
 paginate: 5
-paginate_path: "/vappala/blog/page:num/"
+paginate_path: "/blog/page:num/"
