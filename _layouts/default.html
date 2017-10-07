@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html>
+	<html lang="en">
 		<head>
 			<title>{{ page.title }}</title>
                         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,7 +66,7 @@
 								<li><a href="/index.html#temple" class="scroll">Temple</a></li>
 								<li><a href="/index.html#poojas" class="scroll">Poojas</a></li>
 								<li><a href="/index.html#gallery" class="scroll">Gallery</a></li>
-								<li><a href="/index.html#news" class="scroll">News</a></li>
+								<li><a href="/index.html#news1" class="scroll">News</a></li>
 								<li><a href="/index.html#contact" class="scroll">Contact</a></li>
 							</ul>
 						</div> 
@@ -154,7 +154,7 @@
 						</div> 
 					</div>	 	
 				</div>
-			</div>
+			</div>				
 		</div>
 		<div class="col-sm-3 col-xs-2 content-mid1">
 			<div class=" content-mid-img1">
@@ -454,7 +454,7 @@ At the mandapapura, special poojas with naivedyam for Bhadrakali , Vettekkaran a
 	
 	
 	<!-- news -->
-	<div id="news" class="news">
+	<div id="news1" class="news">
 		<div class="container"> 
 			<h3 class="agileits-title">News</h3> 		
 			<ul id="news">
@@ -462,7 +462,7 @@ At the mandapapura, special poojas with naivedyam for Bhadrakali , Vettekkaran a
 				<li class="news-item">
 				   <table cellpadding="4">
 				    <tr>
-					<td><img src={{ post.icon }} width="60" class="img-circle" /></td>
+					<td><img src={{ post.icon }} alt="News" width="60" class="img-circle" /></td>
 					<td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <br>
 					   <span>{{ post.date | date_to_string }}</span>  </td>
 					<td>{{ post.content }} 	</td>
