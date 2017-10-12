@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Vappala Chingam Pooja"
-date: 2017-08-17
+title: "Vappala Kanni Pooja"
+date: 2017-10-11
 icon: /images/puja.png
 ---
 
