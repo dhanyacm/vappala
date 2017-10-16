@@ -472,14 +472,7 @@ At the mandapapura, special poojas with naivedyam for Bhadrakali , Vettekkaran a
 			  {% endfor %}
 			</ul>	
 			
-			{% if paginator.total_pages > 1 %}
-			  {% if paginator.previous_page %}
-			    <a href="{{ paginator.previous_page_path }}">Previous</a>
-			  {% else %}
-			  {% endif %}
-			{% endif %}
-			{{ paginator.next_page }}     - page number
-			{{ paginator.next_page_path }}
+		
 			
 			
 		</div>
@@ -619,6 +612,19 @@ At the mandapapura, special poojas with naivedyam for Bhadrakali , Vettekkaran a
 				});
 			</script>
 			<!-- //news -->
+			
+			<!-- //pagination -->
+			
+                        <script src="/js/jquery.easyPaginate.js"></script>
+			
+			$('#news').easyPaginate({
+			    paginateElement: 'news-item',
+			    elementsPerPage: 5,
+			    effect: 'climb'
+			});
+			
+			
+			<!-- //pagination -->
 
 			<!-- Bootstrap core JavaScript
 		    ================================================== -->
