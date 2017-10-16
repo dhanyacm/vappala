@@ -14,7 +14,7 @@
 }
 
 #easyPaginate {width:300px;}
-#easyPaginate img {display:block;margin-bottom:10px;}
+#easyPaginate li {display:block;margin-bottom:10px;}
 
 .easyPaginateNav a {padding:5px;}
 .easyPaginateNav a.current {font-weight:bold;text-decoration:underline;}
