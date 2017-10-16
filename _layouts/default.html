@@ -457,7 +457,7 @@ At the mandapapura, special poojas with naivedyam for Bhadrakali , Vettekkaran a
 	<div id="news1" class="news">
 		<div class="container"> 
 			<h3 class="agileits-title">News</h3> 		
-			<ul id="news">
+			<ul id="easyPaginate">
 			  {% for post in site.posts %}			    
 				<li class="news-item" style="color:#fff;">
 				   <table cellpadding="4">
@@ -619,7 +619,7 @@ At the mandapapura, special poojas with naivedyam for Bhadrakali , Vettekkaran a
 			
 			<script type="text/javascript">
 			$(function () {
-				$('#news1').easyPaginate({
+				$('#easyPaginate').easyPaginate({
 				    paginateElement: 'li',
 				    elementsPerPage: 5,
 				    effect: 'climb'
