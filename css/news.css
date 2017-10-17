@@ -1,19 +1,20 @@
-.glyphicon
+/*.glyphicon
 {
-    margin-right:4px !important; /*override*/
+    margin-right:4px !important; 
 }
 
 .pagination .glyphicon
 {
-    margin-right:0px !important; /*override*/
+    margin-right:0px !important; 
 }
 
 .pagination a
 {
     color:#555;
-}
+}/*
 
-#easyPaginate {width:300px;}
+/*#easyPaginate {width:300px;}/*
+
 #easyPaginate li {display:block;margin-bottom:10px;}
 
 .easyPaginateNav a {padding:5px;}
