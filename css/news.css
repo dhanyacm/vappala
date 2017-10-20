@@ -11,9 +11,10 @@
 .pagination a
 {
     color:#555;
+
 }
 
-/*#easyPaginate {width:300px;}/*
+/*#easyPaginate {width:300px;}*/
 
 #easyPaginate li {display:block;margin-bottom:10px;}
 
