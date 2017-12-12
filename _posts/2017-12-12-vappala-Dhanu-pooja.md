@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Vappala Midhunam Pooja"
+date: 2017-12-12
+icon: /images/puja.png
+---
+
 The monthly pooja of Dhanu month at Vappala macchu will be conducted on this Sunday 17th Dec 2017.
 
 Please pass on the message to all family members and kindly participate.
