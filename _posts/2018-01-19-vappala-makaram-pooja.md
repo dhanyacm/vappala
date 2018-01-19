@@ -1,13 +1,10 @@
---
-layout: post
-
-title: "Vappala Midhunam Pooja"
-
-date: 2018-01-19
-
-icon: /images/puja.png
-
 ---
+layout: post
+title: "Vappala Makaram Pooja"
+date: 2018-01-19
+icon: /images/puja.png
+---
+
 
 The monthly pooja of Makaram month at Vappala macchu will be conducted on this Sunday 21st Jan 2018.
 
