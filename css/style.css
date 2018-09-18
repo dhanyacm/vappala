@@ -43,7 +43,7 @@ body a:hover,body a:focus {
     border-bottom: 1px solid #e6e6e6;
 }
 .header-w3layoutstop p {
-    color: #999;
+    color: #232323;
     font-size: 1em;
     text-align: center;
     letter-spacing: 1px;
@@ -402,13 +402,13 @@ h3.agileits-title:before {
     border-top: 8px double #ffffff;
 }
 p{
-	color:#999;
+	color:#232323;
 	font-size:1em; 
 	line-height:1.8em;
 }
 .agile-welcome-right h4 {
     font-size: 1.8em;
-    color: #999;
+    color: #232323;
     line-height: 1.4em;
     margin-bottom: 1em;
 }  
