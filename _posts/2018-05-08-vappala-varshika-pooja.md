@@ -41,7 +41,7 @@ icon: /images/puja.png
 
 Name Priya C
 
-Account No: 15331000044957
+Account No: Contact +91 9895109904 
 
 IFSC code HDFC0001533
 
