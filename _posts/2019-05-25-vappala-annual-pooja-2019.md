@@ -15,7 +15,7 @@ All Vappala family members are requested to participate and pass the information
 
 വാർഷികപൂജാവിധികൾ:
 
-ഗണപതി ഹോമം (രാവിലെ 6 മണി )
+ഗണപതി ഹോമം (രാവിലെ 7 മണി )
 
 പടിഞ്ഞാറ്റയിൽ :
 
