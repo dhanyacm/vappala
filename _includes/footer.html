@@ -1,1 +1,158 @@
 
+   <!-- subscribe -->
+	<div class="subscribe">
+		<div class="container">
+			<h3 class="agile-w3title">Keep in touch</h3>
+			<form name ="subscribe" action= "https://formspree.io/vappala.info@gmail.com" method="post"> 
+				<input type="text" name="name" placeholder="Your Name" required="">
+				<input type="email" name="email" placeholder="Your Email" required="">
+				<input type="submit" value="Submit">
+				<div class="clearfix"> </div>
+			</form>  
+			<p class="spam">No spamming :) We will only add you to the facebook family group</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!-- //subscribe -->
+	
+	<!-- map -->
+	<div id="contact" class="map">
+		<!-- <iframe src="" ></iframe> -->
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3918.6365054693156!2d76.3402588!3d10.8391045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7da6cd9cda745%3A0xeacdbce08336433b!2sVappalakalathil!5e0!3m2!1sen!2sin!4v1505386725335" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
+		<div class="map-pos">
+			<h3>Address</h3>
+			<p>Vappalakalam</p>
+			<p>Ottappalam</p>
+			<p>Ph : +91 99 72 33 11 66</p>
+			<p><a href="mailto:vappala.info@gmail.com">vappala.info@gmail.com</a></p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!-- //map -->
+       		
+	<!-- contact -->
+	<div class="contact">
+		<div class="container">
+			<h3 class="agileits-title">Contact</h3>
+			<form name="contact" action="https://formspree.io/vappala.info@gmail.com" method="post">
+				<div class="col-sm-6 contact-left">
+					<input type="text" name="Name" placeholder="Your Name" required="">
+					<input type="email" name="Email" placeholder="Email" required="">
+					<input type="text" name="Mobile Number" placeholder="Mobile Number" required="">
+				</div>
+				<div class="col-sm-6 contact-right"> 
+					<textarea name="Message" placeholder="Message" required=""></textarea>
+					<input type="submit" value="Submit" >
+				</div>
+				<div class="clearfix"></div>
+			</form>
+		</div>
+	</div> 
+	<!-- //contact -->
+    
+    			
+	
+			
+			<!-- footer -->
+			<div class="footer">
+				<div class="container"> 
+					<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+91 99 72 33 11 66</p>
+					<div class="social-w3licon">
+						<a href="https://twitter.com/vappala" target="_blank" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.facebook.com/groups/149235761781716/" target="_blank" class="social-button facebook"><i class="fa fa-facebook"></i></a>						 
+					</div>      
+				</div>
+			</div>
+			<div class="copy-right">
+				<div class="container">
+					<p>&copy; Vappala. All rights reserved </p>
+				</div>
+			 
+			</div>
+			
+			<!-- start-smooth-scrolling -->
+			<script src="/js/SmoothScroll.min.js"></script> 
+			<script type="text/javascript" src="/js/move-top.js"></script>
+			<script type="text/javascript" src="/js/easing.js"></script>	
+			<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+			</script>
+			<!-- //end-smooth-scrolling -->	
+			<!-- smooth-scrolling-of-move-up -->
+			<script type="text/javascript">			
+				jQuery(document).ready(function($) {	
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+			</script>
+			<!-- //smooth-scrolling-of-move-up -->  
+			
+			<!-- bar-js -->
+			<script src="/js/bars.js"></script>
+			<!-- //bar-js --> 
+			
+			<!-- click expand-->
+			<script type="text/javascript">
+				$('.more').click(function(){
+				$(this).animate({'opacity': '0'}, 1000);
+				$('.less').animate({
+					'opacity': '1', 
+					'z-index': '1'
+				}, 1000);
+				$('.info').animate({'height': '30em'}, 1000);		
+			return false;
+			});
+			$('.less').click(function(){
+				$(this).animate({
+					'opacity': '0',
+					'z-index': '-1'
+				}, 1000);
+				$('.more').animate({'opacity': '1'}, 1000);
+				$('.info').animate({'height': '120px'}, 1000);
+				 return false;
+			});	
+			</script>
+			<!-- //click expand-->
+			
+			<!-- news -->
+			<!-- <script type="text/javascript">
+				$(function () {
+					$("#news").bootstrapNews({
+						newsPerPage: 3,
+						autoplay: false,
+						onToDo: function () {
+							//console.log(this);
+						}
+					});
+				});
+			</script> -->
+			<!-- //news -->
+			
+			<!-- //pagination -->
+			<script src="/js/jquery-latest.js"></script>
+                        <script src="/js/jquery.easyPaginate.js"></script>
+			
+			<script type="text/javascript">
+			$(function () {
+				$('#easyPaginate').easyPaginate({
+				    paginateElement: 'li',
+				    elementsPerPage: 5,
+				    effect: 'climb'
+				});
+			});
+			</script>
+			
+			<!-- //pagination -->
+
+			<!-- Bootstrap core JavaScript
+		    ================================================== -->
+		    <!-- Placed at the end of the document so the pages load faster -->
+		    <script src="/js/bootstrap.js"></script>
+			
+		</body>
+	</html>
