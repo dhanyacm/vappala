@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Vappala Pooja Info"
+date: 2018-09-14
+icon: /images/info.png
+---
 
 The monthly pooja of Kanni month at Vappala macchu will be conducted along with Navrathri Pooja on the Ashtami day morning and so will NOT be held on this Sunday 23rd Sept 2018.
 
