@@ -1,3 +1,14 @@
+---
+layout: post
+
+title: "Vappala Navarathri Pooja"
+
+date: 2018-10-12
+
+icon: /images/puja.png
+
+---
+
 Vappala Machu Navaratri Pooja and monthly pooja of Kanni and Thulam months will be conducted on 16th ,17th, 18th and 19th of October 2018 as per the below schedule
 
 October 16th Morning : Monthly Pooja of Kanni
