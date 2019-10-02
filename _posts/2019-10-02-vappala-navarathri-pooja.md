@@ -9,9 +9,11 @@ icon: /images/puja.png
 
 ---
 
-Vappala Machu Navaratri Pooja and monthly pooja of Kanni month will be conducted on 6th ,7th and 8th of October 2019 as per the below schedule
+Vappala Machu Navaratri Pooja and monthly pooja of Kanni month will be conducted on 5th, 6th, 7th and 8th of October 2019 as per the below schedule
 
-October 6th Evening : Saraswathi pooja (Pooja veppu)
+October 5th Evening : Saraswathi pooja (Pooja veppu)
+
+October 6th Morning and Evening : Saraswathi pooja
 
 October 7th Maha Navami :  Navami pooja will start in the morning with Ayudha Pooja and other Poojas follow and last till evening.
 
