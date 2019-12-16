@@ -61,11 +61,11 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<div class="w3menu navbar-right">
 							<ul class="nav navbar">
-								<li><a href="{{site.baseurl}}/index.html" class="active">Home</a></li>
+								<li><a href="{{site.baseurl}}/index.html" {% if page.frontpage %} class="active" {% endif %} >Home</a></li>
 								<li><a href="{{site.baseurl}}/index.html#about" class="scroll">About</a></li> 
 								<li><a href="{{site.baseurl}}/index.html#temple" class="scroll">Temple</a></li>
 								<li><a href="{{site.baseurl}}/index.html#poojas" class="scroll">Poojas</a></li>
-								<li><a href="{{site.baseurl}}/index.html#gallery" class="scroll">Gallery</a></li>
+								<li><a href="{{site.baseurl}}/index.html#gallery" class="scroll" {% if page.gallery %} class="active" {% endif %}>Gallery</a></li>
 								<li><a href="{{site.baseurl}}/index.html#news1" class="scroll">News</a></li>
 								<li><a href="{{site.baseurl}}/index.html#contact" class="scroll">Contact</a></li>
 							</ul>
