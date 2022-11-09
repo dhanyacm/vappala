@@ -12,7 +12,20 @@ frontpage: false
 	
 			<h3 class="agileits-title">Family Tree</h3> 
 
-       <p> Coming soon </p> 
+       				<script>
+				var family = new FamilyTree(document.getElementById("familytree"), {
+				    nodeBinding: {
+					field_0: "name"
+				    },
+				    nodes: [
+					{ id: 1, pids: [2], name: "Amber McKenzie" },
+					{ id: 2, pids: [1], name: "Ava Field" },
+					{ id: 3, mid: 1, fid: 2, name: "Peter Stevens" }  
+				    ]
+				});
+			    </script> 
+
+			
 
 			<div class="clearfix"> </div> 
      		</div>
