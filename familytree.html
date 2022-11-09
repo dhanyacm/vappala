@@ -7,27 +7,31 @@ frontpage: false
 ---
 
 <!-- gallery -->
-	<div id="familytree" class="tree">
-		<div class="container">   
+	<div id="tree" class="gallery">
 	
-			<h3 class="agileits-title">Family Tree</h3> 
-
-       				<script>
-				var family = new FamilyTree(document.getElementById("familytree"), {
-				    nodeBinding: {
-					field_0: "name"
-				    },
-				    nodes: [
-					{ id: 1, pids: [2], name: "Amber McKenzie" },
-					{ id: 2, pids: [1], name: "Ava Field" },
-					{ id: 3, mid: 1, fid: 2, name: "Peter Stevens" }  
-				    ]
-				});
-			    </script> 
-
+		<div class="container">   
+		<h3 class="agileits-title">Family Tree</h3>     
+		 <p>Below information is crowd sourced from family members and need not be accurate. </p>	  				
 			
 
 			<div class="clearfix"> </div> 
      		</div>
 	</div>
+
+
+
+        <script>
+		FamilyTree.SEARCH_PLACEHOLDER = "Search"; // the default value is "Search"
+		var family = new FamilyTree(document.getElementById("tree"), {
+		    nodeBinding: {
+			field_0: "name"
+		    },
+		    nodes: [
+			{ id: 1, pids: [2], name: "Amber McKenzie" },
+			{ id: 2, pids: [1], name: "Ava Field" },
+			{ id: 3, mid: 1, fid: 2, name: "Peter Stevens" }  
+		    ]
+		});
+	</script> 
+
 
