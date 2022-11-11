@@ -34,61 +34,29 @@ frontpage: false
      		</div>
 	</div>
 
-<div class="container">
-        <div class="row">
-            <div class="youtube_video">           	    
-		    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLhBpKmX_ro-ilm0vKcmv-GFAnL3g9yPMm" title="YouTube video player" 
-			frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-			    allowfullscreen></iframe> 
-            </div>
-            <div class="details">
-                <p>How to make youtube video gallery using <br>html css and javascript</p>
-            </div>
-        </div>
-        <div class="gallery">
-            <div class="item">
-                <img src="images/profile_card.jpg" data-id="xP09I3LKjQU?rel=0">
-                <div class="youtube_icon">
-                    <img src="images/youtube.svg">
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/timeline.jpg" data-id="chaGhpMN980?rel=0">
-                <div class="youtube_icon">
-                    <img src="images/youtube.svg">
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/mobile_app.jpg" data-id="_08Q2hq3U9Q?rel=0">
-                <div class="youtube_icon active">
-                    <img src="images/youtube.svg">
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/lazy_load.jpg" data-id="pQeHyom613Q?rel=0">
-                <div class="youtube_icon">
-                    <img src="images/youtube.svg">
-                </div>
-            </div>
-        </div>
-    </div>
+	<div id="gallery-showcase" class="gallery">
+		<div class="container"> 
+			<h3 class="agileits-title">Video Gallery</h3> 
+			
+						
+			<div class="clearfix"> </div> 		
+					
+			
+     		</div>
+	</div>
+
+
+   <input class="api-input" type="text" onchange="createGallery(this.value)" placeholder="AIzaSyBk4W-V9EVzCVjK2GZRfbYwgvwMwYYuIeg" />
+    <div id="gallery-showcase"></div>
+
+    <script src="yt-gallery.js"></script>
     <script>
-        $(document).ready(function () {
-            $(".item").click(function () {
-                let youtube_id = $(this).children("img").attr("data-id");
-                $(this).children(".youtube_icon")
-                    .addClass("active").parent()
-                    .siblings()
-                    .children(".youtube_icon")
-                    .removeClass("active")
-
-                let newUrl = `https://www.youtube.com/embed/${youtube_id}`;
-                $("#video_id").attr("src", newUrl);
-
+        var createGallery = (key) => {
+            new YTGallery('PLhBpKmX_ro-ilm0vKcmv-GFAnL3g9yPMm', key, 'gallery-showcase', {
+                maxResults: 10
             })
-            //due to slow connection video is playing slow
-            // you can call your playlist using youtube api
-        })
+        }
     </script>
+
 
 
